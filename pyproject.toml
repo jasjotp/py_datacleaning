@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pydatacleaning"
+name = "pydatacleaning_jasjotp"
 version = "0.1.0"
 description = "Python package with simple functionality for cleaning data by pivoting and unpivoting a dataframe using pandas"
 authors = ["Jasjot Parmar"]
@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-
+pandas = "^2.3.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
